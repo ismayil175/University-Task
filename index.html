@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen" href="style.css">
+  <link rel="stylesheet" media="print" href="print.css" />
+
+</head>
+<title></title>
+</head>
+<body>
+  <header>
+    <ul>
+      <li style="float:right"><a href="index.html">Home</a></li>
+      <li style="float:right"><a href="https://www.bloomberg.com/subscriptions?gclid=Cj0KCQiA1ZGcBhCoARIsAGQ0kkrPdQmjx8EFvzxYw6_NgYScXDGRzVvFxm7WJeduQh7dZ5CjDgQ8OxgaAmWmEALw_wcB&gclsrc=aw.ds&utm_campaign=NB_ENG_GENRL_GENERALXXXXXX_EVG_XXXX_XXX_Y0469_EN_EN_X_BLOM_GO_SE_XXX_XXXXXXXXXX&utm_medium=cpc_search">News</a></li>
+      <li ><a href="index.html"><img src="data:image/png;base64,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" width="30" height="30"></a></li>
+    </ul>
+  </header>
+<div class="body">
+  <div class="container flex">
+  <h2>An Ordered HTML List</h2>
+
+  <nav class="nav1">
+    <li>Spaces</li>
+    <li>Services</li>
+    <li>Library</li>
+  </nav>
+
+  <table width="100%">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+</div>
+
+
+<div class="container ">
+  <div class="bs">
+  <img src="photos/photo.jpg" alt="Italian Trulli">
+  </div>
+  <p>2022-11-09</p>
+  <h1>Updated computers for library users</h1>
+  <p>VILNIUS TECH Library provides high quality information and services for study and research process, replenishes the fund of information resources with printed and electronic publications, updates and develops the computer infrastructure. </p>
+  <p>This year, for your convenience, we have updated the stationary computers in the Customer Service Department (Saulėtekio al. 14, hall 101), which are equipped with the most necessary software for studies and science (Autodesk, AutoCard, SOLIDWORKS, WaterGEMS, SewerCAD, MATLAB, etc.). You can find more software for studies and science at https://studsoft.vilniustech.lt. To use the computers, log in with your institutional login data.</p>
+</div>
+
+
+
+
+<div class="flex-container">
+  <div>
+    <h1> Welcome to the <a href = "https://www.javatpoint.com/">javaTpoint.com </a></h1>
+  </div>
+  <div>
+    <address>
+    Written by <a href="mailto:ismayil.maharramov@stud.vilniustech.lt">Ismayil Maharramov</a>.<br>
+    </address>
+  </div>
+</div>
+<br>
+<audio >
+  <source src="horse.ogg">
+</audio>
+
+<div class="grid-container">
+  <div class="grid-item"><video width="320" height="240" controls>
+    <source src="video\World of Warships.mp4" type="video/mp4">
+  </video>
+</div>
+  <div class="grid-item">
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/ofcCkWngujs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+</div>
+
+
+<footer class="footer-distributed">
+
+  <div class="footer-right">
+
+    <a href="https://www.facebook.com/"><i class="fa fa-facebook"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" width="30" height="30"></i></a>
+    <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"><img src="data:image/png;base64,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" width="30" height="30"></i></a>
+    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAaVBMVEUAd7X///8AcLEEebb7/f4Debb9/v79/v8DeLY8l8Y7lsYAbbCcyuKlz+WQxN+Lwd0KfbiDvdvl8fcAc7O+3OwgiL6x1ehFnMlytNZqsNQZhLzF4O7w9/tSo81gqtGp0ebc7PUsjsJ8udngaOvIAAADg0lEQVRoge2abZeqIBCAGV7EjXItKjc1y/7/j7xD7m5AWHdD+uScs3s8kDzOIMwMDoGrSJ4lEC6H0ckVkUEiyeQPBC+ar+pjcqm+GsQMEAntUSuaQJQ+toZC8F+7U4KJBMKE6ltUwkAqJUgiEapCAJGwpSwVgxBGtyAJh4NKCVEH4AStRZNZC+1F0V5orgXN00FyukBzZekh2XsgbzFXCMIGSQlhTCsjegrMCEQQVXfF8rOrFYm3YxjCdFnw6zbdFkJHr6AgROjdGYAbATjXOlaXEISRcgN88GEZh3NJIuclBBF0BfzXr3EoYve1ACTXPViuOAO+izRYAMLUxVLEqBK7RQcggp48yHJ6SG5cjAWRsI/0A0FN9g6Ew2p6TZhae+a6pDDXwn67UKt++rcL3+Gts072sW4gDOn5L4VjRBa7rwT3LkarDMNvmeEf8EV0tDSyC9O++dZku4uPyEb8CdO6KrbNtvjQOt5rjXnGnGGkrKmibALfP+7jBQ6fs0lCvnHIn4Tlj2KBsTkJX4cGYgLH1yiD8n+A/LcgACevrHe7ujRXQYXCEFHaIsLNZjgMnMrjstm0nLebZnXodSi6Cbvfz3Zzk3Y97I/ozOxmE2Dkql5vnCS0OQbe+WAgoZbOjcUPpLBbeU0I7dprZi4xlZYyM8ENNP3d6h2DcPkj/Ab5vDVjkllrgg/DpfNA+HN59D3DKMTahW3ILbxoa3Ru/D75x59Uni6vQ3hZOL7N8j9+ePMqRMLmACNnGHce6FUItrcgA4ThCdwU9HUIjDLuVImAjB/4+EFnjCZXba6xv/SU8oLOOEhmvQgu5GRPShQER25Pl667nFrXeBmc7ZUSA8FxLyU1mSWtTw7Fm5S4ia/Ud5KsnVtM34dlrwiIxNkV31ZhhG1sXTh01sy/DkG7W55SqC9npcLXJBBvHEzPLFU4rCeBgBeHs7MDKaaA4A5ZWggvdXKzs5chGTSOn2XKTZlX02jiJnnGOU8O8ZO8u146CWTpQdYzZIbMkBkyQ2bIDJkhA+QmDsRqDkCs3tXTqH4FtiyDxx6BkMiW/ZO4K6eH/eom+27oy2nnNB+8DPfo9j5JgswBk/PVnj1sfnzTKMScPVpf7fMnzU97JzqDfCxvhMxfsf8Ake8pX3hLIUbqkhJtSkpSF8ccTXGMKSXqk5f5vKVg6Xpkkbz06j1FZJC6HO4fbRVnSvd35FUAAAAASUVORK5CYII=" width="30" height="30"></i></a>
+    <a href="https://github.com/"><i class="fa fa-github"><img src="data:image/png;base64,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" width="30" height="30"></i></a>
+
+  </div>
+
+  <div class="footer-left">
+
+    <p class="footer-links">
+      <a class="link-1" href="#">Home</a>
+
+      <a href="#">Contact</a>
+    </p>
+
+    <p>Company Name &copy; 2022</p>
+    <br>
+    <p>This website was developed by Ismayil Maharramov</p>
+  </div>
+
+</footer>
+</body>
+
+</html>
